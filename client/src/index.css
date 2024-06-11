@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+button {
+  background-color: #5c2d91;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 2px;
+
+  &:hover {
+    background-color: #7c48b8;
+  }
+}
